@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  chatgpt_clone:
+    build: .
+    container_name: chatgpt_clone_app
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    restart: unless-stopped
