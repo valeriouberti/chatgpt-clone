@@ -22,7 +22,7 @@ This project is a **ChatGPT Clone** built using **Streamlit** and integrated wit
 - **Frontend:** Streamlit
 - **Containerization:** Docker, Docker Compose
 - **Environment Management:** Python-dotenv
-- **Language:** Python 3.10
+- **Language:** Python 3.13
 
 ---
 
@@ -45,7 +45,7 @@ chatgpt_clone/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/chatgpt_clone.git
+git clone https://github.com/valeriouberti/chatgpt_clone.git
 cd chatgpt_clone
 ```
 
@@ -55,6 +55,7 @@ Create a `.env` file in the root directory and add your OpenAI API key:
 
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
+MODEL_ID=gpt-4o-mini
 ```
 
 ### 3. Build and Start the Application
@@ -114,9 +115,8 @@ docker-compose restart
 
 ## 🧠 Future Improvements
 
-- **User Authentication:** Secure login for different users.
 - **Persistent Chat History:** Store conversation logs in a database.
-- **Scalability:** Deploy with Kubernetes for high availability.
+- **Use other GPT Models:** Experiment with different GPT models.
 
 ---
 
@@ -134,9 +134,9 @@ This project is licensed under the **MIT License**.
 
 ## 📬 Contact
 
-- **Author:** Your Name
-- **Email:** your.email@example.com
-- **GitHub:** [yourusername](https://github.com/yourusername)
+- **Author:** Valerio Uberti
+- **Email:** valerio.uberti23@gmail.com
+- **GitHub:** [yourusername](https://github.com/valeriouberti)
 
 ---
 
